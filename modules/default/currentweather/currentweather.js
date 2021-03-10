@@ -44,7 +44,7 @@ Module.register("currentweather", {
 
 		onlyTemp: false,
 		hideTemp: false,
-		roundTemp: false,
+		roundTemp: true,
 
 		iconTable: {
 			"01d": "wi-day-sunny",

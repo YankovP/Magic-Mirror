@@ -9,8 +9,8 @@ Module.register("newsfeed", {
 	defaults: {
 		feeds: [
 			{
-				title: "New York Times",
-				url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+				title: "Dir.bg",
+				url: "https://dir.bg/feeds/rss",
 				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
@@ -18,7 +18,7 @@ Module.register("newsfeed", {
 		showPublishDate: true,
 		broadcastNewsFeeds: true,
 		broadcastNewsUpdates: true,
-		showDescription: false,
+		showDescription: true,
 		wrapTitle: true,
 		wrapDescription: true,
 		truncDescription: true,
@@ -26,7 +26,7 @@ Module.register("newsfeed", {
 		hideLoading: false,
 		reloadInterval: 5 * 60 * 1000, // every 5 minutes
 		updateInterval: 10 * 1000,
-		animationSpeed: 2.5 * 1000,
+		animationSpeed: 1 * 1000,
 		maxNewsItems: 0, // 0 for unlimited
 		ignoreOldItems: false,
 		ignoreOlderThan: 24 * 60 * 60 * 1000, // 1 day
